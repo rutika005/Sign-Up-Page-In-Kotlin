@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="10dp"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#03A9F4"
+        android:gravity="center"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Let's get started with your 30 days free trial"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_marginBottom="16dp"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginBottom="16dp"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_marginBottom="16dp"
+        android:inputType="textPassword"
+        android:drawableEnd="@drawable/icons8_invisible_32" />
+
+    <EditText
+        android:id="@+id/etcfpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:layout_marginBottom="16dp"
+        android:inputType="textPassword"
+        android:drawableEnd="@drawable/icons8_invisible_32" />
+
+    <RadioGroup
+        android:id="@+id/checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radio_M"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/radio_F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textColor="@color/black"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Hobby"
+        />
+
+    <CheckBox
+        android:id="@+id/cbReading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reading"
+        android:textColor="@color/black"
+        />
+
+    <CheckBox
+        android:id="@+id/cbsinging"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="singing"
+        android:textColor="@color/black"
+        />
+
+    <CheckBox
+        android:id="@+id/cbtravelling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="travelling"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:backgroundTint="#03A9F4"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Log_In"
+        android:textSize="14sp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvOr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnSignUpGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign up with Google"
+        android:drawableLeft="@drawable/icons8_google_48"
+        android:drawablePadding="8dp"
+        android:backgroundTint="#EDEAEA"
+        android:textColor="?attr/colorPrimary"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvTermsAndPrivacy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By signing up to create an account I accept Company's Terms of Use and Privacy Policy."
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        />
+
+</LinearLayout>
+</ScrollView>
+
