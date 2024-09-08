@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Sign up page</string>
-    <string name="Sign_Up">New in account?<b style="color:blue"> Sign Up</b></string>
-    <string name="Log_In">Already have an account?<b style="color:blue;">Log In</b></string>
-
-</resources>
